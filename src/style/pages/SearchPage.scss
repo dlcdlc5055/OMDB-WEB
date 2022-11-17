@@ -1,0 +1,24 @@
+.SearchInput{
+    padding: .3rem;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 40px;
+}
+
+.SearchDiv{
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: auto;
+    padding-bottom: 10px;
+}
+
+.resoultsError{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

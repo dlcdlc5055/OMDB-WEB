@@ -1,0 +1,21 @@
+.ListItem{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    padding-right: 2px;
+    justify-content: space-between;
+    cursor: pointer;
+    h2{
+        text-transform: capitalize;
+        user-select: none;
+    }
+    div{
+        user-select: none;
+        font-size: 1.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

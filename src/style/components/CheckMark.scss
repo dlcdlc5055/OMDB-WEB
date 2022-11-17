@@ -1,0 +1,30 @@
+.CheckMark-otter{
+    border:#1118 2px solid;
+    width: 70px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.CheckMark-inner{
+    width: 30px;
+    height: 30px;
+    border:#1118 2px solid;
+    background-color:#fff;
+    border-radius: 100%;
+    transition: all .3s ease;
+}
+
+.onBg{
+    background-color: #44c22e;
+}
+
+.offBg{
+    background-color: #b12b2b;
+}
+
+.onInner{
+    translate: 30px 0px;
+}
