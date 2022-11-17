@@ -1,2 +1,2 @@
 # OMDB-WEB
-Web version of my OMDB App.
+WEB version of my OMDB App.
