@@ -18,6 +18,15 @@ $gap:10px;
     }
 }
 
+.mobileMenuButton{
+    width: 35px;
+    height: 35px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
 .navbarContainerInner{
     display: flex;
     flex-direction: row;
@@ -91,6 +100,13 @@ $line-height:3px;
     translate:2px 0px;
 }
 
+
+@media screen and (min-width: 550px) {
+    .layout_nav_mobile_btn{
+        display: none;
+    }
+}
+
 .menuMobileContainer{
     position: fixed;
     top: $nav-height;
@@ -103,6 +119,7 @@ $line-height:3px;
     flex-direction: column;
     translate: 100% 0;
     max-width: 100vw;
+    border-left: 2px solid;
     z-index: 9999;
     transition: translate .3s ease;
 }
